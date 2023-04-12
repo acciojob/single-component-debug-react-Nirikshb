@@ -1,12 +1,12 @@
+// App.js
+
 import React from 'react';
 
-const App = () => {
+export default function App() {
   return (
     <div>
-      <h1>Hello, world!</h1>
-      <p>I can now create full-fledged React components and render it on the DOM node of my choice.</p>
+      <h1>Hello World!</h1>
+      <p>This is my React app.</p>
     </div>
   );
-};
-
-export default App;
+}
